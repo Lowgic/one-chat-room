@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "cross-env DEBUG=one-chat-room:* nodemon ./bin/www",
+"mocha": "mocha tests/**/*.tests.js",
     "start": "node ./bin/www"
   },
   "dependencies": {
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
+    "mocha": "^5.2.0",
     "nodemon": "^1.18.9"
   },
   "engines": {
